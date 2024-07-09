@@ -148,6 +148,6 @@ On the next page we will look into how the couple backs up the wallet.
 {% include next-previous.html
    previousUrl = "/guide/inheritance-wallet/wallet-creation"
    previousName = "Wallet creation"
-   nextUrl = "/guide/upgradeable-wallet"
-   nextName = "Upgradeable wallet"
+   nextUrl = "/guide/inheritance-wallet/backup"
+   nextName = "Wallet backup"
 %}
