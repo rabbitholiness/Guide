@@ -209,12 +209,12 @@ Alice and Bob have been using their savings wallet for a couple of years now and
 
 When users need to make changes to their multisig wallet, such as replacing a key or modifying the wallet configuration, the process involves creating a new wallet and transferring funds. Here's how the process works from Bob's and Alice's perspective:
 
-1. Bob makes the desired changes, which creates a new wallet.
-1. He shares the new wallet with Alice for setup in her application.
-1. Bob and Alice activate the new wallet on all three primary signing devices. 
-1. They save and store the new wallet recovery kit as described in the [backup page]({{ '/guide/inheritance-wallet/backup/#backup-strategy' | relative_url }}).
-1. Transfer all funds to the new wallet.
-1. Archive the old wallet to manage any future incoming funds.
+1. Bob makes the desired changes, which creates a new wallet
+1. He shares the new wallet with Alice for setup in her application
+1. Bob and Alice activate the new wallet on all three primary signing devices 
+1. They save and store the new wallet recovery kit as described on the [backup page]({{ '/guide/inheritance-wallet/backup/#backup-strategy' | relative_url }})
+1. Transfer all funds to the new wallet
+1. Archive the old wallet to manage any future incoming funds
 
 
 ## Replacing David's signing key
@@ -252,9 +252,9 @@ The next step is to add David's new extended public key. This works in the same 
 
 The new inheritance wallet is now created. Just like during the initial wallet creation, Alice and Bob now need to:
 
-1. Share the wallet configuration with Alice, so that she can set up the wallet on her app.
-1. Activate the new wallet on all of their signing devices.
-1. Save the backup kit for the new wallet.
+1. Share the wallet configuration with Alice, so that she can set up the wallet on her app
+1. Activate the new wallet on all of their signing devices
+1. Save the backup kit for the new wallet
 
 We have covered these topics in the previous pages of this reference design.
 
@@ -295,8 +295,8 @@ The app will still monitor the Bitcoin blockchain for incoming transactions. If 
 ### Alternative approach
 As you can see, making changes to a multi-key wallet can be a tedious process. An alternative to replacing the David's key would be for David to simply import the backup of his existing private key into a new signing device. This approach has some advantages:
 
-1. **Simplicity**: It doesn't require creating a new wallet or moving funds, which incurs transaction fees.
-1. **Convenience**: Other family members wouldn't need to be involved in the process.
+1. **Simplicity**: It doesn't require creating a new wallet or moving funds, which incurs transaction fees
+1. **Convenience**: Other family members wouldn't need to be involved in the process
 
 However, there are also significant downsides:
 
@@ -316,6 +316,6 @@ If the Joneses would want to change only the wallet configuration the process wo
 {% include next-previous.html
    previousUrl = "/guide/inheritance-wallet/backup/"
    previousName = "Wallet backup"
-   nextUrl = "/guide/upgradeable-wallet/"
-   nextName = "Upgradeable wallet"
+   nextUrl = "/guide/inheritance-wallet/succession/"
+   nextName = "Succession & fund transfer"
 %}
